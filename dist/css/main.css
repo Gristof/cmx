@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Monosten-A';
+  src: url('/dist/fonts/Monosten-A.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('/dist/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('/dist/fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
     --clr-primary: hsl(255deg, 255%, 255%);
     --clr-secondary: hsl(0deg, 0%, 0%);
@@ -14,7 +35,7 @@ body {
     display: grid;
     place-items: center;
     background: var(--clr-secondary);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     background-color: var(--clr-secondary);
     background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23555' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
@@ -80,6 +101,8 @@ body {
     position: relative;
     display: inline-block;
     font-style: italic;
+    font-family: 'Monosten-A', monospace;
+    font-weight: 400;
 }
 
 .Card__title::after {
@@ -89,7 +112,7 @@ body {
     height: 4px;
     background: var(--clr-accent-1);
     left: calc(var(--padding) * -1);
-    bottom: -4px;
+    bottom: -5px;
     transform: scale(0);
     transform-origin: left;
     transition: transform 400ms ease;
