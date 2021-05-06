@@ -22,7 +22,7 @@ body {
 
 .Card {
     max-width: 40ch;
-    background-image: url('/bw_small.jpg');
+    background-image: url('/img/bw_small.jpg');
     background-size: cover;
     background-position: center top;
     padding: 24rem 0 0 0;
