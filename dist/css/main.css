@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Monosten-A';
-  src: url('/dist/fonts/Monosten-A.woff2') format('woff2');
+  src: url('../fonts/Monosten-A.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter-Regular';
-  src: url('/dist/fonts/Inter-Regular.woff2') format('woff2');
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter-Bold';
-  src: url('/dist/fonts/Inter-Bold.woff2') format('woff2');
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
