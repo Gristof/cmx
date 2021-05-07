@@ -49,6 +49,7 @@ body {
     transition: transform 500ms ease;
     box-shadow: 0 0 0 4px var(--clr-secondary), 0 0 0 8px var(--clr-primary);
     position: relative;
+    background: var(--clr-primary);
 }
 
 .Card:focus {
