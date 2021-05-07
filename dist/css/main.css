@@ -138,8 +138,23 @@ body {
     font-size: 0.9rem;
 }
 
+.Card__link[data-disabled] {
+    background: hsl(0 0% 25% / 0.5);
+    color: hsl(0, 0%, 25%);
+    cursor: default;
+}
+
+.Card__link[data-disabled]:hover {
+    background: hsl(0 0% 25% / 0.5);
+    color: hsl(0, 0%, 25%);
+    animation-name: shake;
+    animation-duration: 0.5s;
+    transform-origin:50% 50%;
+    animation-iteration-count: infinite;
+}
+
 .Card__link:hover {
-    background: hsl(0, 0%, 25%);;
+    background: hsl(0, 0%, 25%);
 }
 
 .Card__link:focus {
@@ -169,4 +184,18 @@ body {
     .Card__content {
         transform: translateY(63%);
     }
+}
+
+@keyframes shake {
+    0% { transform: translate(2px, 1px) rotate(0deg); } 
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(0px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(2px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(2px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
