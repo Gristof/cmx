@@ -50,6 +50,9 @@ body {
     box-shadow: 0 0 0 4px var(--clr-secondary), 0 0 0 8px var(--clr-primary);
     position: relative;
     background: var(--clr-primary);
+    animation-name: scatter;
+    animation-duration: 1000ms;
+    animation-delay: 1000ms;
 }
 
 .Card:focus {
@@ -96,6 +99,8 @@ body {
     position: absolute;
     top: -2rem;
     left: 0;  
+    width: 100%;
+    height: auto;
 }
 
 .Card__title {
@@ -199,4 +204,15 @@ body {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(2px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes scatter {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    20% { opacity: 0; }
+    50% { opacity: 1; }
+    60% { opacity: 0; }
+    70% { opacity: 1; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
 }
