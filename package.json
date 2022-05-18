@@ -1,0 +1,24 @@
+{
+    "name": "cmx",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "build": "npx @11ty/eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gristof/cmx.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gristof/cmx/issues"
+    },
+    "homepage": "https://github.com/Gristof/cmx#readme",
+    "dependencies": {
+        "@11ty/eleventy": "^1.0.1"
+    }
+}
