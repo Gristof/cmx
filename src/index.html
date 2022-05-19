@@ -1,46 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Christoph Müller Biography" />
+        <title>Christoph Müller</title>
+        <link
+            rel="stylesheet"
+            href="{{ '/css/reset.css' | url }}" />
+        <link
+            rel="stylesheet"
+            href="{{ '/css/main.css' | url }}" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name=description content="Christoph Müller Biography">
-    <title>Christoph Müller</title>
-    <link rel="stylesheet" href="{{ '/css/reset.css' }}">
-    <link rel="stylesheet" href="{{ '/css/main.css' }}">
-</head>
-
-<body>
-    <main>
-        <article class="Card" aria-labelledby="cardTitle" tabindex="0">
-            <picture>
-                <source srcset="./img/moshed.avif" type="image/avif">
-                <source srcset="./img/moshed.webp" type="image/webp">
-                <img class="Card__image" src="./img/moshed.jpg" width="1000" height="1286" alt="Christoph Müller">
-            </picture>
-            <div class="Card__content flow">
-                <h1 id="cardTitle" class="Card__title">Christoph Müller</h1>
-                <div class="Card__body flow">
-                    <p class="Card__description">
-                        UX&nbsp;Engineering – CSS&nbsp;Architecture – Design&nbsp;Systems - Accessibility
-                    </p>
-                    <div class="Card__links">
-                        <a href="mailto:mail@christoph.mx" target="_blank" rel="noopener noreferrer"
-                            class="Card__link">Mail</a>
-                        <a href="https://twitter.com/keuriseutopeu" target="_blank" rel="noopener noreferrer"
-                            class="Card__link">Twitter</a>
-                        <a href="https://github.com/Gristof" target="_blank" rel="noopener noreferrer"
-                            class="Card__link">Github</a>
-                        <a href="https://www.xing.com/profile/Christoph_Mueller450/cv" target="_blank"
-                            rel="noopener noreferrer" class="Card__link">Xing</a>
-                        <span class="Card__link" data-disabled>CV</span>
+    <body>
+        <main>
+            <article
+                class="Card"
+                aria-labelledby="cardTitle"
+                tabindex="0">
+                <picture>
+                    <source
+                        srcset="./img/moshed.avif"
+                        type="image/avif" />
+                    <source
+                        srcset="./img/moshed.webp"
+                        type="image/webp" />
+                    <img
+                        class="Card__image"
+                        src="./img/moshed.jpg"
+                        width="1000"
+                        height="1286"
+                        alt="Christoph Müller" />
+                </picture>
+                <div class="Card__content flow">
+                    <h1
+                        id="cardTitle"
+                        class="Card__title">
+                        Christoph Müller
+                    </h1>
+                    <div class="Card__body flow">
+                        <p class="Card__description">
+                            UX&nbsp;Engineering – CSS&nbsp;Architecture –
+                            Design&nbsp;Systems - Accessibility
+                        </p>
+                        <div class="Card__links">
+                            <a
+                                href="mailto:mail@christoph.mx"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="Card__link">
+                                Mail
+                            </a>
+                            <a
+                                href="https://twitter.com/keuriseutopeu"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="Card__link">
+                                Twitter
+                            </a>
+                            <a
+                                href="https://github.com/Gristof"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="Card__link">
+                                Github
+                            </a>
+                            <a
+                                href="https://www.xing.com/profile/Christoph_Mueller450/cv"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="Card__link">
+                                Xing
+                            </a>
+                            <span
+                                class="Card__link"
+                                data-disabled>
+                                CV
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </article>
-    </main>
-    <script src="js/main.js"></script>
-</body>
-
+            </article>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
 </html>
